@@ -26,7 +26,7 @@ Cài đặt CloudWatch Agent trên EC2 để thu thập custom metrics như:
 
 Tạo một EC2 instance dùng cho lab và kết nối vào instance bằng EC2 Instance Connect.
 
-![EC2 Instance](images/01-ec2-instance.png)
+![EC2 Instance](/images/01-ec2-instance.png)
 
 ---
 
@@ -46,7 +46,7 @@ Kiểm tra agent đã được cài đặt:
 ls /opt/aws/amazon-cloudwatch-agent/bin/
 ```
 
-![Install CloudWatch Agent](images/02-install-agent.png)
+![Install CloudWatch Agent](/images/02-install-agent.png)
 
 ---
 
@@ -82,7 +82,7 @@ Kết quả:
 }
 ```
 
-![Agent Status](images/03-agent-status.png)
+![Agent Status](/images/03-agent-status.png)
 
 ---
 
@@ -99,7 +99,7 @@ Các custom metrics đã xuất hiện:
 * `mem_used_percent`
 * `disk_used_percent`
 
-![CloudWatch Metrics](images/04-cloudwatch-metrics.png)
+![CloudWatch Metrics](/images/04-cloudwatch-metrics.png)
 
 ---
 
